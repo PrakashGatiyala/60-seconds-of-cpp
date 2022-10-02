@@ -19,7 +19,6 @@ Now, each function returns the value back to compute 1 * 2 * 3 * 4 * 5 * 6 = 720
 using namespace std;
 
 int factorial(int n);
-
 int main() {
 
   int n;
