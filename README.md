@@ -1,4 +1,4 @@
-[![Logo](/logo.png)](https://30secondsofcode.org/python/p/1)
+
 
 # 60 seconds of code
 
@@ -17,4 +17,4 @@
 
 ## Credits
 
-* This repository is maintained by the some cool guys.
+* This repository is maintained by some cool guys.
