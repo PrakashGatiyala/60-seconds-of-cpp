@@ -5,6 +5,7 @@ expertise: beginner
 ---
 
 - Program to Display Factors of a Number 
+
 Let us see how this program works:
 
 In this program, an integer entered by user is stored in variable n.
@@ -14,7 +15,7 @@ Then, for loop is executed with an initial condition i = 1 and checked whether n
 In each iteration, the value of i is updated (increased by 1).
 This process goes until test condition i <= n becomes false,i.e., this program checks whether number entered by user n is perfectly divisible by all numbers from 1 to n and all displays factors of that number.
 
-```cpp 
+```cpp
 
 #include <iostream>
 using namespace std;
