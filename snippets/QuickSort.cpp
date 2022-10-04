@@ -1,20 +1,3 @@
-/*---
-title: Function name
-tags: utility
-expertise: intermediate
-firstSeen: 2021-06-13T05:00:00-04:00
----
-
-Explain briefly what the snippet does.
-
-- Explain briefly how the snippet works.
-- Use bullet points for your snippet's explanation.
-- Try to explain everything briefly but clearly.
-
-```cpp
-datatype function_name(datatype args):
-*/
-
 /* C++ implementation of QuickSort */
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,12 +9,6 @@ void swap(int* a, int* b)
 	*a = *b;
 	*b = t;
 }
-
-/* This function takes last element as pivot, places
-the pivot element at its correct position in sorted
-array, and places all smaller (smaller than pivot)
-to left of pivot and all greater elements to right
-of pivot */
 int partition(int arr[], int low, int high)
 {
 	int pivot = arr[high]; // pivot
@@ -50,11 +27,6 @@ int partition(int arr[], int low, int high)
 	swap(&arr[i + 1], &arr[high]);
 	return (i + 1);
 }
-
-/* The main function that implements QuickSort
-arr[] --> Array to be sorted,
-low --> Starting index,
-high --> Ending index */
 void quickSort(int arr[], int low, int high)
 {
 	if (low < high) {
@@ -89,9 +61,4 @@ int main()
 	return 0;
 }
 
-// This code is contributed by rathbhupendra
 
-
-/*
-datatype function_name(datatype val) # result
-```*/
